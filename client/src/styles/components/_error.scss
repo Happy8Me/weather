@@ -1,0 +1,12 @@
+.error {
+    width: fit-content;
+    border: 1px solid grey;
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: #ff0000bf;
+    p {
+        color: white;
+        font-size: 1.5rem;
+    }
+}

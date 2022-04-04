@@ -1,0 +1,16 @@
+.two-days {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    .day {
+        height: 190px;
+        overflow: hidden;
+        transition: .8s;
+        padding: 5px;
+        cursor: pointer;
+        &:hover {
+            height: 305px;
+        }
+        img {width: 70%;}
+    }
+}

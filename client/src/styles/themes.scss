@@ -1,0 +1,92 @@
+// styles for colour themes
+
+.theme {
+    margin: 20px;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.theme-options {
+    width: fit-content;
+    display: flex;
+    padding: 10px;
+}
+
+#theme-grey, #theme-green, #theme-dark, #theme-white, #theme-yellow, #theme-pink, #theme-blue {
+    border: 1px solid $white;
+    border-radius: 5px;
+    margin: 3px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+#theme-grey {
+    background-color: $grey;
+}
+#theme-green {
+    background-color: $green;
+}
+#theme-dark {
+    background-color: $dark;
+}
+#theme-white {
+    background-color: $white;
+}
+#theme-yellow {
+    background-color: $yellow;
+}
+#theme-blue {
+    background-color: $blue;
+}
+#theme-pink {
+    background-color: $pink;
+}
+
+.theme-grey {
+    background: $grey;
+    button, a {
+        color: $grey;
+        filter: invert(100%);
+    }
+}
+.theme-dark {
+    background: $dark;
+    button, a {
+        color: $dark;
+        filter: invert(100%);
+    }
+}
+.theme-green {
+    background: $green;
+    button, a{
+        color: $white;
+    }
+}
+.theme-white {
+    background: $white;
+    button, a {
+        color: $white;
+        filter: invert(100%);
+    }
+}
+.theme-yellow {
+    background: $yellow;
+    button, a {
+        color: $yellow;
+        filter: invert(100%);
+    }
+}
+.theme-blue {
+    background: $blue;
+    button, a {
+        color: $yellow;
+    }
+}
+.theme-pink {
+    background: $pink;
+    button, a {
+        color: $pink;
+        filter: invert(100%);
+    }
+}

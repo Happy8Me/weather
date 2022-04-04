@@ -1,0 +1,27 @@
+.form {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    width: 280px;
+    margin: 25px auto;
+    &-input {
+        border: 0;
+        border-bottom: 1px solid $main;
+        width: 150px;
+        padding: 0.5rem;
+        border-radius: 5px;
+    }
+    &-button {
+        border: none;
+        cursor: pointer;
+        transition: 0.3s;
+        background: none;
+        font-weight: bold;
+        &:hover {
+            filter: invert(50%);
+        }
+    }
+}
+
+
+ 

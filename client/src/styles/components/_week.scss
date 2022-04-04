@@ -1,0 +1,12 @@
+.week {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+    padding: 15px;
+    .max{color: $color-temp}
+    .min{color: $contrast}
+}

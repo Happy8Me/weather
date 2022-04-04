@@ -1,0 +1,18 @@
+.menu {
+    margin: 40px;
+    &-ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    &-li a {
+        text-decoration: none;
+        margin: 0 5px;
+        transition: .3s;
+        font-size: 1.6rem;
+        &:hover {
+            filter: invert(50%);
+        }
+    }
+}
